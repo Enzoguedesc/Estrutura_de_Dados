@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cstdio>
+#include <iomanip> // Biblioteca para manipulação de formatação de saída, como setprecision e fixed
+
+using namespace std;
+
+int main(){
+    int A, B, C , D, DIFERENCA;
+
+    cin >> A,
+    cin >> B;
+    cin >> C;
+    cin >> D;
+
+    DIFERENCA = (A * B) - (C * D);
+
+    cout << "DIFERENCA = " << DIFERENCA << endl;
+
+    return 0;
+
+}
